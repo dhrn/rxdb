@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "rxdb node example",
   "main": "src/app.js",
-  "type": "module",
   "scripts": {
     "preinstall": "node ./scripts/ensure-equal-versions.js",
     "start": "node src/app.js",
