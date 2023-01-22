@@ -1,6 +1,6 @@
-import chalk from 'chalk';
+const chalk = await import('chalk');
 
-const intro = () => {
+ const intro = () => {
     console.log(chalk.green('########################################################'));
     console.log(chalk.green('RXDB node example'));
     console.log(chalk.green('########################################################\n \n'));
