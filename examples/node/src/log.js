@@ -1,4 +1,5 @@
-const chalk = await import('chalk');
+const chalkChunk = () => import('chalk');
+const chalk = await chalkChunk();
 
  const intro = () => {
     console.log(chalk.green('########################################################'));
